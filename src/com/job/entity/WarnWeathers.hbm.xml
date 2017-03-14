@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.job.entity.WarnWeathers" table="WarnWeathers">
+		<id name="wno">
+			<generator class="sequence"></generator>
+		</id>
+		<property name="wtype"/>
+		<property name="warea"/>
+		<property name="wdays"/>
+		<property name="wdate"/>
+		<property name="winfo"/>
+	
+	</class>
+</hibernate-mapping>
